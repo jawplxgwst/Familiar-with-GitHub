@@ -9,12 +9,12 @@ public class iterativeprocess {
     public static void main (String[] args){
 
         double y = 0;
-        double x = 2;
+        double w = 2;
 
         for (int i = 0; i<10; i++) {
-            System.out.println(x);
-            y = (x * x) - 2;
-            x = y;
+            System.out.println(w);
+            y = (w * w) - 2;
+            w = y;
         }
     }
 }
