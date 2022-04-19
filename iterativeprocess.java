@@ -11,6 +11,7 @@ public class iterativeprocess {
         double s = 0;
         double x = 2;
         double y = 4;
+        int p = 1;
 
         for (int i = 0; i<10; i++) {
             System.out.println(x);
@@ -18,5 +19,6 @@ public class iterativeprocess {
             x = s;
         }
         System.out.print(y);
+        System.out.print(p);
     }
 }
