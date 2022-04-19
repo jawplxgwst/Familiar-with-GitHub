@@ -8,6 +8,7 @@
 public class iterativeprocess {
     public static void main (String[] args){
 
+<<<<<<< HEAD
         double y = 0;
         double w = 2;
 
@@ -15,6 +16,5 @@ public class iterativeprocess {
             System.out.println(w);
             y = (w * w) - 2;
             w = y;
-        }
     }
 }
