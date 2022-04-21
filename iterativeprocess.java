@@ -10,11 +10,11 @@ public class iterativeprocess {
 
 <<<<<<< HEAD
         double y = 0;
-        double w = 2;
+        double s = 2;
 
         for (int i = 0; i<10; i++) {
             System.out.println(w);
-            y = (w * w) - 2;
-            w = y;
+            y = (s * s) - 2;
+            s = y;
     }
 }
